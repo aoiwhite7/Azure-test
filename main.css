@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0ffff
+  }
+
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* サブルな影 */
+    border-radius: 8px; /* 角丸 */
+  }
+
+  #app input[type="text"] {
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+
+h2{
+    color:darkblue;
+    text-transform: uppercase; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Arial Black";
+}
+  
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5); 
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* サブルームの影を追加 */
+  }
+
+li:hover {
+    background-color: aliceblue;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+
+#app ul{
+    list-style: none;
+    padding: 0;
+}
+
+#app li > span.done {
+    text-decoration: line-through;
+}
+
+#app button {
+    background-color:#e57373;
+    color: white ;
+    padding: 5px 10px;
+    cursor: pointer; 
+    margin-left: 10px;
+    border: none; 
+    border-radius: 20px; 
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+
+
+#app button:hover {
+    background-color: #de4e4e;
+    transform: scale(1.005);
+}
+
+#app li > button {
+    background-color: #6495ed;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-family: "Century Gothic";
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    float: right; /* 右寄せにする */
+}
+
+#app li > button:hover {
+    background-color: #4169e1;
+    transform: scale(1.005);
+}
